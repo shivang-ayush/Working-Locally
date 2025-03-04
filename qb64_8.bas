@@ -1,0 +1,12 @@
+Cls
+Input "GIVE THE MARKS OF ENGLISH"; ENG
+Input "GIVE THE MARKS OF HINDI"; HIN
+Input "GIVE THE MARKS OF MATHS"; MAT
+TOTAL = ENG + HIN + MAT
+Print "TOTAL MARKS:="; TOTAL
+If TOTAL < 80 Then
+    Print "FAIL"
+Else Print "PASS"
+End If
+End
+
